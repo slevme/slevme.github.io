@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://slevme.github.io/sitemap/sitemap-index.xml
+Host: https://slevme.github.io
