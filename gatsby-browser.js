@@ -5,3 +5,5 @@
  */
 
 // You can delete this file if you're not using it
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
+deckDeckGoHighlightElement();
