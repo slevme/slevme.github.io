@@ -1,8 +1,8 @@
-import React, { FunctionComponent, ReactNode } from 'react'
 import styled from '@emotion/styled'
+import Footer from 'components/Common/Footer'
 import GlobalStyle from 'components/Common/GlobalStyle'
 import Navbar from 'components/Common/Navbar'
-import Footer from 'components/Common/Footer'
+import { FunctionComponent, ReactNode } from 'react'
 import { Helmet } from 'react-helmet'
 
 type TemplateProps = {
@@ -48,6 +48,11 @@ const Template: FunctionComponent<TemplateProps> = function ({
         <meta name="twitter:image" content={image} />
         <meta name="twitter:site" content="@사용자이름" />
         <meta name="twitter:creator" content="@사용자이름" />
+
+        <meta
+          name="google-site-verification"
+          content="qaDz0gBmKSVoJEGROSmWn6yT4WxRaThEeLd7R5OjwOA"
+        />
 
         <html lang="ko" />
       </Helmet>

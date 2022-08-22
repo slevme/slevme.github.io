@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `주니어 개발자의 기록 블로그`,
-    description: `메모 겸 지식 정리용으로 개설한 개발 블로그입니다.`,
+    description: `메모 겸 지식 정리용 블로그입니다.`,
     author: `Boyoung`,
-    siteUrl: 'http://localhost:8000/', // 배포 후 변경 예정
+    siteUrl: 'https://slevme.github.io/',
   },
   plugins: [
     {
@@ -80,7 +80,7 @@ module.exports = {
           {
             resolve: 'gatsby-plugin-canonical-urls',
             options: {
-              siteUrl: '<https://my-website.com/>',
+              siteUrl: 'https://slevme.github.io/',
               stripQueryString: true,
             },
           },
